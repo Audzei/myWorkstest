@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.img {
+    margin: 20px;
+    size: 15px;
+}
+html {
+scroll-behavior: smooth;
+}
+header nav ul{
+list-style: none;
+display: flex;
+justify-content: end;
+}
+header nav ul a {
+    color: black;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all .5s;
+
+    border: 2px solid #005eff;
+    padding: 5px 10px;
+    border-radius: 50px;
+    display: block;
+}
+header nav ul li a:hover{
+    background: #005eff;
+    color:rgb(181, 181, 253)
+}
+header nav ul li{
+    margin-right: 15px;
+}
+.li {
+    margin: 10px;
+}
+header {
+    margin-bottom:50px;
+}
+
+
+
+
