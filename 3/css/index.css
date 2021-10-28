@@ -40,7 +40,18 @@ header nav ul li{
 header {
     margin-bottom:50px;
 }
-
-
-
-
+.onas {
+    font-size: 20px;
+    color:black;
+}
+.product-card1 {
+    display: flex;
+    width: 600px;
+}
+.product-card_tittle1 {
+    display: flex;
+    justify-content: space-between;
+}
+.product-card_info1 {
+    width: 100%;
+}
