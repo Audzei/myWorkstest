@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;/*Убирает маркировку списка*/
+}
+body {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+.font-roboto{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+header{
+height: 80px;
+width: 100%;
+background: rgba(0, 0, 0, 0.2);
+position: absolute;
+}
+.banner img{
+width: 100%;
+height: 600px;
+object-fit: cover; /*Заполнение картинкой(убирает расстягивание)*/
+}
+.header-flex{
+    padding: 0px 70px; /* 0px сверху и снизу 70px справа и слева*/
+    display: flex;
+    justify-content: space-between; /*Разбрасывает блоки в разные стороны*/
+    align-items: center;
+}
