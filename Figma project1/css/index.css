@@ -172,7 +172,7 @@ font-weight: 700;
     margin-right: 70px;
 }
 section {
-
+max-width: 100%;
 }
 .first-topics {
     display: flex;
