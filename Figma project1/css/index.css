@@ -292,11 +292,15 @@ section {
 .kukushka {
     margin-bottom: 150px;
 }
-.footer-info {
+footer {
+
     background-color: #212529;
+}
+.footer-info {
     padding: 106px 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 0 70px;
 }
 .subscribe {
     background-color: #343A40;
@@ -313,4 +317,18 @@ section {
     color: #e5e5e5;
     font-size: 12px;
     text-decoration: none;
+    flex-direction: column;
+    margin-bottom: 15px;
+
+}
+
+.headquarter {
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    width: 110px;
+}
+
+.icons {
+    padding-right: 10px;
 }
