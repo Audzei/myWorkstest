@@ -10,7 +10,6 @@ body {
 }
 
 .header {
-    position: fixed;
     display: flex;
     justify-content: space-between;
     padding: 30px 0;
@@ -123,7 +122,7 @@ body {
     color: #e5e5e5;
     max-width: 420px;
 }
-.aas1 {
+.info-block {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -209,11 +208,109 @@ section {
         font-family: Lora;
         color:#6C757D;
         text-align: left;
+        line-height: 20px;
     }
-.image-text img{
-    z-index: 1;
-    width: 1440px;
+
+.image-text {
+    background-image: url('../image/Image-text.png');
+    background-size: cover;
     height: 600px;
-    object-fit: cover; /*Заполнение картинкой(убирает расстягивание)*/
     margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fashion-button {
+    text-align: center;
+}
+.fashion-block {
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper-1 {
+    text-align: center;
+}
+.wrapper-category {
+    display: flex;
+    justify-content: center;
+}
+.fashion-title {
+    margin-top: 30px;
+}
+.fashion-img-title {
+    margin-top: 25px;
+}
+.fashion-data-tittle {
+    margin-top: 13px;
+}
+.image-topic-1 {
+    background-image: url('../image/Image-9.png');
+    background-size: cover;
+    height: 350px;
+    width: 420px;
+    border-radius: 5px;
+}
+.image-topic-2 {
+    background-image: url('../image/Image-10.png');
+    background-size: cover;
+    height: 350px;
+    width: 420px;
+    border-radius: 5px;
+}
+.image-topic-3 {
+    background-image: url('../image/Image-11.png');
+    background-size: cover;
+    height: 350px;
+    width: 420px;
+    border-radius: 5px;
+}
+.category-pick {
+    text-align: center;
+}
+.wrapper-pick {
+    display: flex;
+    justify-content: end;
+    padding: 25px 30px 0 0;
+}
+.editors-pick {
+    margin-bottom: 70px;
+}
+.text-pick {
+    color: #fff;
+
+}
+.info-pick {
+    color: #e5e5e5;
+}
+.date-pick  {
+    color: #e5e5e5;
+ 
+}
+.shegly {
+    margin: 110px 0 0 40px;
+}
+.kukushka {
+    margin-bottom: 150px;
+}
+.footer-info {
+    background-color: #212529;
+    padding: 106px 0;
+    display: flex;
+    justify-content: center;
+}
+.subscribe {
+    background-color: #343A40;
+}
+.all-info {
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    color: #fff;
+    font-size: 18px;
+}
+.contact-links {
+    color: #e5e5e5;
+    font-size: 12px;
+    text-decoration: none;
 }
