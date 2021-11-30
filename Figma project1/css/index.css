@@ -9,6 +9,45 @@ body {
     margin: 0 auto;
 }
 
+.burger-menu {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.burger-menu:hover {
+    cursor: pointer;
+}
+
+.burger-menu:focus {
+    
+}
+.burger-line {
+    width: 20px;
+    height: 2px;
+    background-color: #E5E5E5;
+}
+
+.burger-line::after{
+    content: " ";
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    bottom: 3px;
+    background-color: #E5E5E5;
+}
+
+.burger-line::before{
+    content: " ";
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    top: 3px;
+    background-color: #E5E5E5;
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -243,26 +282,20 @@ section {
 .fashion-data-tittle {
     margin-top: 13px;
 }
-.image-topic-1 {
-    background-image: url('../image/Image-9.png');
+.images-topics {
     background-size: cover;
     height: 350px;
     width: 420px;
     border-radius: 5px;
+}
+.image-topic-1 {
+    background-image: url('../image/Image-9.png');
 }
 .image-topic-2 {
     background-image: url('../image/Image-10.png');
-    background-size: cover;
-    height: 350px;
-    width: 420px;
-    border-radius: 5px;
 }
 .image-topic-3 {
     background-image: url('../image/Image-11.png');
-    background-size: cover;
-    height: 350px;
-    width: 420px;
-    border-radius: 5px;
 }
 .category-pick {
     text-align: center;
@@ -331,4 +364,114 @@ footer {
 
 .icons {
     padding-right: 10px;
+}
+
+
+@media (max-width: 1400px){
+    body {
+        width: 1200px;
+    }
+    .header {
+        width: 1200px;
+    }
+    .popular-topics{
+        margin-top: 100px;
+    }
+    .image {
+        width: 250px;
+        height: 250px;
+    }
+    .images-topics {
+        width: 330px;
+        height: 330px;
+    }
+}
+@media (max-width: 1220px){
+    body {
+        width: 1024px;
+    }
+    .header {
+        width: 1024px;
+    }
+    .main-wrapper {
+        height: 575px;
+    }
+    .popular-topics{
+        margin-top: 80px;
+    }
+    .image {
+        width: 205px;
+        height: 230px;
+    }
+    .category.category-button {
+        right: 15px;
+        top: 35px;
+    }
+    .topic-text {
+        font-size: 14px;
+    }
+    .info-text {
+        font-size: 10px;
+    }
+    .images-topics {
+        width: 275px;
+        height: 300px;
+    }
+    .image-text {
+        margin-top: 100px;
+    }
+    .shegly {
+        margin: 60px 0 0 40px;
+    }
+}
+@media (max-width: 1040px){
+    body {
+        width: 768px;
+    }
+    .header {
+        width: 768px;
+    }
+    .main-wrapper {
+        height: 430px;
+    }
+    .wrapper {
+        padding-top: 140px;
+    }
+    .popular-topics{
+        margin-top: 80px;
+    }
+    .image {
+        width: 205px;
+        height: 230px;
+    }
+    .category.category-button {
+        right: 15px;
+        top: 35px;
+    }
+    .topic-text {
+        font-size: 14px;
+    }
+    .info-text {
+        font-size: 10px;
+    }
+    .images-topics {
+        width: 275px;
+        height: 300px;
+    }
+    .image-text {
+        margin-top: 100px;
+    }
+    .shegly {
+        margin: 60px 0 0 40px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .nav-bar {
+        display: none;
+    }
+    .burger-menu {
+        display: flex; 
+    }
 }
