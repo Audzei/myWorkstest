@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <form action="#" method="get"> <!--Контейнер для форм-->
+        <input type="text" required name="Имя" placeholder="Введите имя"/>
+        <input type="text" name="Фамилия" placeholder="Введите фамилию"/>
+        <input type="text" name="e-mail" id=""/>
+        <div>
+            <select name="Browsers" id="">
+                <option value="" disabled selected>Выберите браузер</option>
+                <option value="1">Google Chrome</option>
+                <option value="2">Firefox</option>
+                <option value="3">Opera</option>
+                <option value="4">Safari</option>
+            </select>
+        </div>
+        <div class="auto">
+            <input type="radio" name="auto" id="r1" value="audi">
+            <label for="r1">AUDI</label>
+        </div>
+        <div class="auto">
+            <input type="radio" name="auto" id="r2" value="ford">
+            <label for="r2">FORD</label>
+        </div>
+        <div class="auto">
+            <input type="radio" name="auto" id="r3" value="bmw">
+            <label for="r3">BMW</label>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
