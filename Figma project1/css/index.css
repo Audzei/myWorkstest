@@ -13,8 +13,7 @@ body {
     justify-content: space-between;
     padding: 30px 0;
     z-index: 2;
-    background: rgba(0, 0, 0, 0.2);
-    
+    background: rgba(0, 0, 0, 0.2); 
 }
 
 .nav-bar {
@@ -139,12 +138,12 @@ body {
     margin-top: 15px;
 }
 .popular-topics {
-color: #495057;
-margin-top: 150px;
-margin-left: 70px;
-font-size: 36px;
-font-family: Lora, sans-serif;
-font-weight: 700;
+    color: #495057;
+    margin-top: 150px;
+    margin-left: 70px;
+    font-size: 36px;
+    font-family: Lora, sans-serif;
+    font-weight: 700;
 }
 .category-filter {
     display: flex;
