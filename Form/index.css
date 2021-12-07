@@ -6,3 +6,97 @@
 .auto {
     font-size: 20px;
 }
+a{
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-container {
+    width: 400px;
+    padding: 10px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,.3);
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+.input-container,
+.select-container {
+    position: relative;
+    margin-top: 15px;
+}
+.input-container input[type="text"],
+.input-container input[type="email"],
+.select-container select{
+    display: block;
+    width: 100%;
+    padding: 8px 7px 5px;
+    box-sizing: border-box;
+    border: purple solid 1px;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.input-container input:focus{
+color:purple;
+}
+.input-container label{
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    background: #fff;
+    padding: 0px 3px;
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.select-container select{
+    appearance: none;
+    -webkit-appearance: none;
+}
+.checkbox-list{
+    margin-top: 15px;
+}
+.checkbox-container input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;
+}
+.checkbox-container label{
+    position: relative;
+    padding-left: 30px;
+    font-size: 18px;
+    line-height: 22px;
+}
+.checkbox-container label::after,.checkbox-container label::before{
+content: '';
+position: absolute;
+display: block;
+border-radius: 8px;
+}
+.checkbox-container label::after{
+    width: 22px;
+    height: 22px;
+    background: purple;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+.checkbox-container label::before{
+    width: 20px;
+    height: 20px;
+    left: 1px;
+    top:1px;
+    background: blue;
+    z-index: 2;
+    opacity: 0;
+    transition: all .3s;
+}
+.checkbox-container input[type=checkbox]:checked + label::before{
+opacity: 1;
+transition: all .3s;
+}
