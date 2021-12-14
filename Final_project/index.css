@@ -4,7 +4,7 @@
     font-family: 'Raleway', sans-serif;
 }
 body {
-    width: 1440px;
+    width: 1900px;
     margin: 0 auto;
     background-color: #363636;
 }
@@ -22,6 +22,7 @@ body {
 .image-logo {
     width: 42px;
     height: 42px;
+
 }
 .logo-name {
     font-size: 16px;
@@ -42,9 +43,14 @@ body {
     padding-bottom: 5px;
 }
 .list-item:hover {
-    color:aqua;
+    color:#ff6e40;
     cursor: pointer;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #FF6E40;
+    background-position: 100% 0;
+    -o-transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+    
 }
 .contacts-main {
     display: flex;
@@ -58,9 +64,10 @@ body {
     width: 110px;
 }
 .container {
+    position: relative;
     display: flex;
     justify-content: center;
-    margin: 40px 105px 0 100px;
+    margin: 40px 0 0 330px;
     padding-top: 98px;
     height: 961px;
     width: 1250px;
@@ -103,5 +110,129 @@ body {
     width: 190px;
     margin-left: -121px;
     margin-bottom: 60px;
-    background-color: red;
+    font-size: 20px;
+    font-weight: 700;
+    color: #f5f5f5;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background: #FF6E40 linear-gradient(#ff5b27, #FF6E40);
+    box-shadow: inset #ff470d 0 -1px 1px, inset 0 1px 1px #ff815a, #f33a00 0 0 0 1px, rgba(0,0,0,.3) 0 2px 5px;
+    -webkit-animation: pulsate 1.2s linear infinite;
+    animation: pulsate 1.2s linear infinite;
+}
+.button:hover {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+    cursor: pointer;
+}
+.button:active {
+    box-shadow: 0 -1px 3px rgba(0,0,0,.3), inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+  }
+@-webkit-keyframes pulsate {
+50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+}
+@keyframes pulsate {
+50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+}
+.services {
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    background-color: #251D1A;
+    width: 1900px;
+    align-items: flex-end;
+    margin-top: -250px;
+    padding-bottom: 120px;
+}
+.benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.benefit-tittle {
+    font-size: 24px;
+    color: #EFE7E2;
+    text-align: center;
+    margin-top: 25px;
+}
+.benefit-text {
+    font-size: 15px;
+    color: #B7AAA2;
+    text-align: center;
+    margin-top: 10px;
+    width: 245px;
+}
+.benefit-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1255px;
+}
+.benefit-image {
+    width: 78px;
+    height: 78px;
+}
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.about-tittle {
+    font-size: 48px;
+    color: #fff;
+}
+.about-text {
+    font-size: 15px;
+    width: 580px;
+    text-align: center;
+    color: #fff;
+    margin-top: 15px;
+    line-height: 24px;
+}
+.about {
+    padding-top: 120px;
+}
+.portfolio {
+    display: flex;
+    justify-content: center;
+}
+.image-left {
+    margin-right: 15px;
+}
+.image-left-bottom {
+    margin-top: 15px;
+    transition:  .3s;
+}
+.photo-hover:hover {
+    transform: scale(1.01);
+    transition:  .3s;
+}
+.photo {
+    margin-right: 15px;
+}
+.image-right-top {
+    margin-bottom: 15px;
+}
+.about-buton {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.portfolio-button {
+    margin-right: 25px;
+    font-size: 20px;
+    color: #fff;
+    padding: 18px 50px;
+}
+.instagram-button {
+    font-size: 14px;
+}
+.circle {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: #B7AAA2;
+    border: #B7AAA2;
+    cursor: pointer;
 }
