@@ -1,0 +1,158 @@
+@media(max-width: 1800px){
+    body{
+        width: 1440px;
+    }
+    .container {
+        margin-left: 95px;
+    }
+    .services {
+        width: 100%;
+        /* margin-left: -200px; */
+    }
+    .benefit-wrapper {
+        margin-left: 85px;
+    }
+    .pricing {
+        width: 1440px;
+    }
+    .map-image {
+        width: 400px;
+        margin: 0 150px 0 0;
+    }
+    .footer-info {
+        justify-content: center;
+        margin-left: 110px;
+    }
+    .map-icon {
+        margin-right: 15px;
+    }
+    .footer-contacts {
+        margin-right: 135px;
+    }
+    .footer-main {
+        width: 100%;
+        /* margin-left: -200px; */
+    }
+}
+@media(max-width: 1460px){
+    body{
+        width: 1024px;
+    }
+    .logo-name {
+        font-size: 13px;
+        width: 90px;
+        margin-right: 35px;
+    }
+    .list-item {
+        margin-right: 20px;
+        width: 80px;
+        font-size: 11px;
+        text-align: center;
+    }
+    .contacts {
+        width: 125px;
+        font-size: 13px;
+        margin: 0 5px 0 20px;
+    }
+    .telephone {
+        margin-left: -10px;
+    }
+    .container {
+        margin-left: 0px;
+        width: 1024px;
+        height: 700px;
+    }
+    .image-logo {
+        width: 35px;
+        height: 35px;
+    }
+    .map,
+    .telephone {
+        width: 30px;
+    }
+    .tittle-text{
+        width: 515px;
+        font-size: 50px;
+        line-height: 58px;
+        margin-top: -15px;
+    }
+    .border-text{
+        font-size: 10px;
+    }
+    .under-border {
+        width: 285px;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    .button {
+        width: 100px;
+        height: 50px;
+        font-size: 13px;
+    }
+    .services {
+        margin-left: -200px;
+    }
+    .benefit-wrapper {
+        margin-right: 155px;
+        justify-content: center;
+    }
+    .benefit {
+        margin-left: 125px;
+    }
+    .photo-hover {
+        width: 242px;
+    }
+    .big-photo {
+        width: 500px;
+    }
+    .portfolio-button {
+        padding: 10px 20px;
+    }
+    .master {
+        width: 210px;
+    }
+    .master-image {
+        width: 210px;
+    }
+    .circle-left,
+    .circle-right {
+        margin-top: 85px ;
+    }
+    .pricing {
+        margin-left: -200px;
+    }
+    .models {
+        width: 240px;
+    }
+    .type-price-time {
+        width: 240px;
+    }
+    .haircuts:last-child {
+        margin-right: 0px;
+    }
+    .time-min {
+        font-size: 10px;
+    }
+    .name-hair {
+        font-size: 10px;
+    }
+    .barber-services {
+        font-size: 25px;
+    }
+    .wrapper-prices {
+        margin-left: 10px;
+    }
+    .feedback-tittle {
+        font-size: 35px;
+    }
+    .footer-main {
+        width: 1414px;
+        margin-left: -200px;
+    }
+    .footer-info {
+        justify-content: center;
+    }
+    .map-image {
+        width: 320px;
+    }
+}

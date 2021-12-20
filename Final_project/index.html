@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -74,7 +75,7 @@
         </div>
         <div class="portfolio">
             <div class="image-left">
-                <img class="photo-hover" src="./images/portfolio/photo.png" alt="Photo">
+                <img class="photo-hover big-photo" src="./images/portfolio/photo.png" alt="Photo">
                 <div class="image-left-bottom">
                     <img class="photo photo-hover" src="./images/portfolio/photo (1).png" alt="Photo1">
                     <img class="photo-hover" src="./images/portfolio/photo (2).png" alt="Photo2">
@@ -85,7 +86,7 @@
                     <img class="photo photo-hover" src="./images/portfolio/photo (3).png" alt="Photo3">
                     <img class="photo-hover" src="./images/portfolio/photo (4).png" alt="Photo4">
                 </div>
-                <img class="photo-hover" src="./images/portfolio/photo (5).png" alt="Photo5">
+                <img class="photo-hover  big-photo" src="./images/portfolio/photo (5).png" alt="Photo5">
             </div>
         </div>
         <div class="about-buton">
@@ -139,21 +140,21 @@
             <p class="our-prices-info">Цены указаны с учетом мытья головы ДО и ПОСЛЕ стрижки.</p>
             <div class="wrapper-prices">
                 <div class="haircuts">
-                    <img src="./images/haircuts.png" alt="photo">
+                    <img class="models" src="./images/haircuts.png" alt="photo">
                     <p class="barber-services">Стрижка</p>
                     <div class="type-price-time">
                         <div class="type-hair">
-                            <p>Отец и сын</p>
-                            <p>Детская</p>
-                            <p>Стрижка машинкой</p>
-                            <p>Всё остальное</p>
+                            <p class="name-hair">Отец и сын</p>
+                            <p class="name-hair">Детская</p>
+                            <p class="name-hair">Стрижка машинкой</p>
+                            <p class="name-hair">Всё остальное</p>
                         </div>
                         <div class="time-price">
                             <div class="time">
-                                <p>60 мин</p>
-                                <p>60 мин</p>
-                                <p>60 мин</p>
-                                <p>60 мин</p>
+                                <p class="time-min">60 мин</p>
+                                <p class="time-min">60 мин</p>
+                                <p class="time-min">60 мин</p>
+                                <p class="time-min">60 мин</p>
                             </div>
                             <div class="price">
                                 <p>50р</p>
@@ -165,14 +166,14 @@
                     </div>
                 </div>
                 <div class="haircuts">
-                    <img src="./images/bred.png" alt="photo">
+                    <img class="models" src="./images/bred.png" alt="photo">
                     <p class="barber-services">Борода и усы</p>
                     <div class="type-price-time">
                         <div class="type-hair">
-                            <p>Стрижка бороды</p>
-                            <p>Стрижка усов</p>
-                            <p>Борода+усы</p>
-                            <p>КОМБО стрижка</p>
+                            <p class="name-hair">Стрижка бороды</p>
+                            <p class="name-hair">Стрижка усов</p>
+                            <p class="name-hair">Борода+усы</p>
+                            <p class="name-hair">КОМБО стрижка</p>
                         </div>
                         <div class="time-price">
                             <div class="time">
@@ -191,14 +192,14 @@
                     </div>
                 </div>
                 <div class="haircuts">
-                    <img src="./images/shaving.png" alt="photo">
+                    <img class="models" src="./images/shaving.png" alt="photo">
                     <p class="barber-services">Бритьё</p>
                     <div class="type-price-time">
                         <div class="type-hair">
-                            <p>Бритьё бороды</p>
-                            <p>Бритьё усов</p>
-                            <p>Бритьё головы</p>
-                            <p>КОМБО Бритьё</p>
+                            <p class="name-hair">Бритьё бороды</p>
+                            <p class="name-hair">Бритьё усов</p>
+                            <p class="name-hair">Бритьё головы</p>
+                            <p class="name-hair">КОМБО Бритьё</p>
                         </div>
                         <div class="time-price">
                             <div class="time">
@@ -217,14 +218,14 @@
                     </div>
                 </div>
                 <div class="haircuts">
-                    <img src="./images/waxing.png" alt="photo">
+                    <img class="models" src="./images/waxing.png" alt="photo">
                     <p class="barber-services">Депиляция воском</p>
                     <div class="type-price-time">
                         <div class="type-hair">
-                            <p>Воск и бритьё</p>
-                            <p>Брови</p>
-                            <p>Нос + уши</p>
-                            <p>КОМБО депиляция</p>
+                            <p class="name-hair">Воск и бритьё</p>
+                            <p class="name-hair">Брови</p>
+                            <p class="name-hair">Нос + уши</p>
+                            <p class="name-hair">КОМБО депиляция</p>
                         </div>
                         <div class="time-price">
                             <div class="time">
@@ -249,12 +250,10 @@
             <h3 class="feedback-tittle">Проконсультируйтесь с нашими опытными барберами</h3>
             <form action="" class="form">
                 <div class="input-container">
-                    <label for="r4">Имя</label>
-                    <input class="input-text" type="text" name="" id="r4" placeholder="Введите имя">
+                    <input class="input-text" type="text" name="" placeholder="Введите имя">
                 </div>
                 <div class="input-container">
-                    <label for="r5">Телефон</label>
-                    <input class="input-text" type="text" name="" id="r5" placeholder=" +375 (  ) ___-__-__">
+                    <input class="input-text" type="text" name="" placeholder=" +375 (  ) ___-__-__">
                 </div>
                 <button class="request">Заказать звонок</button>
             </form>
@@ -273,8 +272,8 @@
     </section>
     <footer class="footer-main">
         <div class="footer-info">
-            <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1030.6448617359554!2d23.707712276503216!3d52.09246415939316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47210bffa3f71a5d%3A0x6274188d1955205!2z0YPQuy4g0JPQvtCz0L7Qu9GPIDg3LCDQkdGA0LXRgdGC!5e0!3m2!1sru!2sby!4v1639914504936!5m2!1sru!2sby" width="500" height="220" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="google-map">
+                <iframe class ="map-image" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1030.6448617359554!2d23.707712276503216!3d52.09246415939316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47210bffa3f71a5d%3A0x6274188d1955205!2z0YPQuy4g0JPQvtCz0L7Qu9GPIDg3LCDQkdGA0LXRgdGC!5e0!3m2!1sru!2sby!4v1639914504936!5m2!1sru!2sby" width="500" height="220" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
             <div class="footer-contacts">
                 <div class="footer-telephone">
