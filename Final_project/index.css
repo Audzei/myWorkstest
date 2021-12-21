@@ -45,7 +45,7 @@ body {
 .list-item:hover {
     color:#ff6e40;
     cursor: pointer;
-    border-bottom: .3px solid #FF6E40;
+    border-bottom: .1px solid #FF6E40;
     background-position: 100% 0;
     -o-transition: all .1s ease-in-out;
     -webkit-transition: all .1s ease-in-out;
