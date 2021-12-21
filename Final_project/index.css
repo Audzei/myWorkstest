@@ -204,6 +204,7 @@ margin-bottom: 70px;
 .portfolio {
     display: flex;
     justify-content: center;
+
 }
 .image-left {
     margin-right: 15px;
