@@ -295,3 +295,11 @@
         margin-right: 30px;
     }
 }
+@media (max-width: 320px){
+    .checkbox-first__label .checkbox svg {
+        top: -8px;
+        left: -2px;
+        width: 14px;
+        height: 25px;
+    }
+}
