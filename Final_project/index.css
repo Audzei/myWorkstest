@@ -40,7 +40,7 @@ body {
 .list-item {
     list-style-type: none;
     margin-right: 60px;
-    padding-bottom: 2px;
+    padding-bottom: 1px;
 }
 .list-item:hover {
     color:#ff6e40;
