@@ -720,7 +720,7 @@ margin-bottom: 70px;
     animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
 }
 .parallax > use:nth-child(1) {
-    animation-delay: -2s;
+    animation-delay: -1.9s;
     animation-duration: 7s;
 }
 .parallax > use:nth-child(2) {
